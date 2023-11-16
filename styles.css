@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(grey, lightblue);
+}
+
+
+.btn{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.right{
+    background: green;
+}
+
+.wrong{
+    background: red;
+}
